@@ -8,7 +8,7 @@ public class RecadoClient {
 	
 	public static void main(String arg[]) {
 		try {
-			IMural mural = (IMural) Naming.lookup("//localhost:2020/AgendaServer");
+			IMural mural = (IMural) Naming.lookup("//localhost:3000/RecadoServer");
 			Recado r = new Recado();
 			r.setCodigo(25);
 			r.setTexto("Recado teste 1");

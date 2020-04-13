@@ -1,6 +1,6 @@
 import java.io.Serializable;
 
-public class Recado {
+public class Recado implements Serializable {
 	public static final	long serialVersionUID = 2281079886752254553L;
 	
 	private int codigo;

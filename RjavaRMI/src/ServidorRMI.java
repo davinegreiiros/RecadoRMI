@@ -7,7 +7,7 @@ public class ServidorRMI {
 		try {
 			RecadoImpl recado = new RecadoImpl();
 			LocateRegistry.createRegistry(2020);
-			Naming.rebind("//locahost:2020/AgendaServer",recado);
+			Naming.rebind("//localhost:3000/RecadoServer",recado);
 			
 			System.out.println("Servidor Mural ativo");
 			
